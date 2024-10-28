@@ -98,10 +98,10 @@
                     <!-- Navbar Items [right] -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+1 (305) 1234-5678</a>
+                            <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i> + 61370443376</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>hello@example.com</a>
+                            <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>au@infinity-globus.com</a>
                         </li>
                     </ul>
 

@@ -7,7 +7,7 @@
              <div class="swiper-slide slide-center">
 
                  <!-- Media -->
-                 <img src="assets/images/bg-4.jpg" alt="Full Image" class="full-image" data-mask="50">
+                 <img src="assets/images/banner.webp" alt="Full Image" class="full-image" data-mask="50">
 
                  <div class="slide-content row">
                      <div class="col-12 d-flex justify-content-start inner">
@@ -37,29 +37,11 @@
  </section>
 
  <!-- Features -->
- <section id="features" class="section-1 features offers featured">
+ <section id="features" class="section-1 features offers featured" style="padding: 80px 0;">
      <div class="container">
          <div class="row justify-content-center items">
-             <div class="col-12 col-md-6 col-lg-4 item">
-                 <div class="card">
-                     <i class="icon featured icon-people"></i>
-                     <h4>Human Capital</h4>
-                     <p>Humanizing business: Harness the power of technology to improve the way people work.</p>
-                 </div>
-             </div>
-             <div class="col-12 col-md-6 col-lg-4 item">
-                 <div class="card">
-                     <i class="icon featured icon-pie-chart"></i>
-                     <h4>Core Business</h4>
-                     <p>It takes innovative approaches to transform, modernize, and run existing platforms.</p>
-                 </div>
-             </div>
-             <div class="col-12 col-md-6 col-lg-4 item">
-                 <div class="card">
-                     <i class="icon featured icon-speedometer"></i>
-                     <h4>Performance</h4>
-                     <p>Achieving maximum impact and value from investments in finance and supply chain.</p>
-                 </div>
+             <div class="col-md-12 text-center">
+                 <h2>A Leading Outsourced Firm for Maximizing Profits & Minimizing Hassles!</h2>
              </div>
          </div>
      </div>
@@ -73,47 +55,98 @@
                  <div data-aos="fade-up" class="row intro mb-4">
                      <div class="col-12 p-0">
                          <span class="pre-title m-auto m-md-0">About the network</span>
-                         <h2><span class="featured"><span>About</span></span>  Us</h2>
-                         <p>We offer a wide suite for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing services across Australia through innovative ideas and integrated solutions. With us, you can be sure of receiving carefully curated services that meet your unique requirements.</p>   <p>Possessing a combined experience of 20+ years in the industry, our team of exceptionally talented professionals helps strengthen your business while simultaneously offering you a comprehensive understanding of the industry trends.</p>
+                         <h2><span class="featured"><span>About</span></span> Us</h2>
+                         <p>We offer a wide suite for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing services across Australia through innovative ideas and integrated solutions. With us, you can be sure of receiving carefully curated services that meet your unique requirements.</p>
+                         <p>Possessing a combined experience of 20+ years in the industry, our team of exceptionally talented professionals helps strengthen your business while simultaneously offering you a comprehensive understanding of the industry trends.</p>
                      </div>
                  </div>
                  <div class="row items">
                      <div data-aos="fade-up" class="col-12 col-md-4 p-0 pr-md-4 item">
-                         <div data-percent="230" class="radial left">
+                         <div data-percent="500" class="radial left">
                              <span></span>
                          </div>
                          <h4>Employees</h4>
-                         <p>Lorem ipsum dolor sit amet.</p>
+                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                      </div>
                      <div data-aos="fade-up" class="col-12 col-md-4 p-0 pr-md-4 item">
-                         <div data-percent="164" class="radial left">
+                         <div data-percent="200" class="radial left">
                              <span></span>
                          </div>
-                         <h4>Partners</h4>
-                         <p>Lorem ipsum dolor sit amet.</p>
+                         <h4>CPA Clients</h4>
+                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                      </div>
                      <div data-aos="fade-up" class="col-12 col-md-4 p-0 pr-md-4 item">
-                         <div data-percent="517" class="radial left">
+                         <div data-percent="20" class="radial left">
                              <span></span>
                          </div>
-                         <h4>Customers</h4>
-                         <p>Lorem ipsum dolor sit amet.</p>
+                         <h4>Experience</h4>
+                         <!-- <p>Lorem ipsum dolor sit amet.</p> -->
                      </div>
                  </div>
 
                  <!-- Action -->
                  <div data-aos="fade-up" class="buttons">
                      <div class="d-sm-inline-flex mb-5 mb-md-0">
-                         <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a>
-                         <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                         <!-- <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a> -->
+                         <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">EXPLORE MORE</a>
                      </div>
                  </div>
              </div>
              <div class="col-12 col-md-6 p-0 image">
-                 <img src="assets/images/about-5.jpg" class="fit-image" alt="Fit Image">
+                 <img src="assets/images/about.webp" class="fit-image" alt="Fit Image">
              </div>
          </div>
      </div>
+ </section>
+
+ <!-- talent -->
+ <section id="features" class="section-1 features offers featured">
+     <div class="container">
+         <div class="row pb-3">
+             <div class="col-md-12">
+                 <h2>Personalized Talent for Your Goals</h2>
+             </div>
+         </div>
+         <div class="row justify-content-center items">
+             <div class="col-12 col-md-6 col-lg-4 item">
+                 <div class="card">
+                     <i class="icon featured icon-people"></i>
+                     <h4 class="m-1">Bookkeeping</h4>
+                     <ul style="list-style: none;">
+                         <li>Bookkeeping Staff</li>
+                         <li>Bookkeeping Senior</li>
+                         <li>Bookkeeping Supervisor</li>
+                         <li>Bookkeeping Manager</li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="col-12 col-md-6 col-lg-4 item">
+                 <div class="card">
+                     <i class="icon featured icon-pie-chart"></i>
+                     <h4 class="m-1">SMSF</h4>
+                     <ul style="list-style: none;">
+                         <li>SMSF Staff</li>
+                         <li>SMSF Senior</li>
+                         <li>SMSF Supervisor</li>
+                         <li>SMSF Manager</li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="col-12 col-md-6 col-lg-4 item">
+                 <div class="card">
+                     <i class="icon featured icon-speedometer"></i>
+                     <h4 class="m-1">Accounting and Tax</h4>
+                     <ul style="list-style: none;">
+                         <li>Accounting and Tax Staff</li>
+                         <li>Accounting and Tax Senior</li>
+                         <li>Accounting and Tax Supervisor</li>
+                         <li>Accounting and Tax Manager</li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+
  </section>
 
  <!-- Projects -->
@@ -123,7 +156,7 @@
              <div class="row text-center intro">
                  <div class="col-12">
                      <span class="pre-title">We do more for everyone</span>
-                     <h2 class="mb-0">Actions & <span class="featured"><span>Projects</span></span></h2>
+                     <h2 class="mb-0"> <span class="featured"><span>Why</span></span> Choose Us?</h2>
                  </div>
              </div>
              <div class="row justify-content-center text-center">
@@ -160,39 +193,8 @@
                      </div>
                  </div>
              </div>
-             <div class="row items filter-items">
-                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
-                     <div class="row card p-0 text-center">
-                         <div class="image-over">
-                             <img src="assets/images/project-1.jpg" alt="Lorem ipsum">
-                         </div>
-                         <div class="card-caption col-12 p-0">
-                             <div class="card-body">
-                                 <a href="#">
-                                     <h4>Academic professional program in social media</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 </a>
-                             </div>
-                         </div>
-                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                     </div>
-                 </div>
-                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["institutional","events","environment"]'>
-                     <div class="row card p-0 text-center">
-                         <div class="image-over">
-                             <img src="assets/images/project-2.jpg" alt="Lorem ipsum">
-                         </div>
-                         <div class="card-caption col-12 p-0">
-                             <div class="card-body">
-                                 <a href="#">
-                                     <h4>President's speech at the annual meeting</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 </a>
-                             </div>
-                         </div>
-                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                     </div>
-                 </div>
+        
+             <div class="row my-3  d-flex justify-content-center">
                  <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
                      <div class="row card p-0 text-center">
                          <div class="image-over">
@@ -225,40 +227,83 @@
                          <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                      </div>
                  </div>
-                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["social","environment","events"]'>
-                     <div class="row card p-0 text-center">
-                         <div class="image-over">
-                             <img src="assets/images/project-5.jpg" alt="Lorem ipsum">
-                         </div>
-                         <div class="card-caption col-12 p-0">
-                             <div class="card-body">
-                                 <a href="#">
-                                     <h4>Donation of clothes and food to the partner NGO</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 </a>
-                             </div>
-                         </div>
-                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                     </div>
-                 </div>
-                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","institutional","technology"]'>
-                     <div class="row card p-0 text-center">
-                         <div class="image-over">
-                             <img src="assets/images/project-6.jpg" alt="Lorem ipsum">
-                         </div>
-                         <div class="card-caption col-12 p-0">
-                             <div class="card-body">
-                                 <a href="#">
-                                     <h4>Confraternization of the procurement team</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                 </a>
-                             </div>
-                         </div>
-                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
-                     </div>
-                 </div>
+
                  <div class="col-1 filter-sizer"></div>
              </div>
+
+             <div class="row my-3 d-flex justify-content-center">
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-3.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>International business trip in Shanghai</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-4.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>Technology workshop with education theme</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+
+                 <div class="col-1 filter-sizer"></div>
+             </div>
+
+             <!-- <div class="row items filter-items  d-flex justify-content-center">
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-3.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>International business trip in Shanghai</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-4.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>Technology workshop with education theme</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+
+                 <div class="col-1 filter-sizer"></div>
+             </div> -->
          </div>
      </div>
  </section>
