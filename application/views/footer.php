@@ -1,153 +1,205 @@
+   <!-- Footer -->
+   <footer>
 
-
-
-<!-- ======= Footer ======= -->
-
-<footer id="footer">
-
-    <div class="footer-top ">
-        <div class="container">
-            <div class="row side">
-
-                <div class="col-lg-3 col-md-6 footer-links qlinks">
-                    <h4>NAVIGATION</h4>
-                    <ul>
-                        <li> <a href="Main">Home</a></li>
-                        <li> <a href="About">About</a></li>
-                        <li> <a href="Feature">Features</a></li>
-                        <li> <a href="Pricing">Pricing</a></li>
-                        <li> <a href="Contact">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>FEATURES</h4>
-                    <ul>
-                        <li> <a href="Feature"> Patient Management</a></li>
-                        <li> <a href="Feature">For Specialists</a></li>
-                        <li> <a href="Feature">Integrated Payments</a></li>
-                        <li> <a href="Feature">Prescription Ease</a></li>
-                        <li> <a href="Feature">Analytics & Reports</a></li>
-                        <li> <a href="Feature">Cloud Security</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Legal</h4>
-                    <ul>
-                        <li> <a href="privacy">Privacy Policy</a></li>
-                        <li> <a href="terms">Terms of Service</a></li>
-                        <li> <a href="disclaimer">Disclaimer</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links qlinks">
-                    <h4>TALK TO US</h4>
-                    <ul>
-                        <li> <a href="">support@aesthetics.ai</a></li>
-                        <li> <a href="">+91 9876543210</a></li>
-                    </ul>
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </div>
-
+<!-- Copyright -->
+<section id="copyright" class="p-3 odd copyright">
     <div class="container">
-        <hr>
+        <div class="row">
+            <div class="col-12 col-md-6 p-3 text-center text-lg-left">
+                <p>Enjoy the low price. We are tracking any intention of piracy.</p>
+                <!--
+                    Suggestion: Replace the text above with a description of your website.
+                 -->
+            </div>
+            <div class="col-12 col-md-6 p-3 text-center text-lg-right">
+                <p>© 2023 NEXGEN is Proudly Powered by <a href="https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
+            </div>
+        </div>
     </div>
+</section>
 
+</footer>
 
-    <div class="container py-3 text-center">
-        <div class="row d-flex justify-content-between">
-            <div class="col-md-4">
-                <img src="assets/img/flogo.png" alt="" style=" height: 50px;">
-            </div>
-            <div class="col-md-4 d-flex align-items-center justify-content-center">
-                <div class="copyright-text">
-                    <p> © Designed by The Odin. All Rights Reserved. </p>
+<!-- Modal [search] -->
+<div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
+<div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+            <i class="icon-close fas fa-arrow-right"></i>
+        </div>
+        <div class="modal-body">
+            <form class="row">
+                <div class="col-12 p-0 align-self-center">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <h2>What are you looking for?</h2>
+                            <div class="badges">
+                                <span class="badge"><a href="#">Consulting</a></span>
+                                <span class="badge"><a href="#">Audit</a></span>
+                                <span class="badge"><a href="#">Assurance</a></span>
+                                <span class="badge"><a href="#">Advisory</a></span>
+                                <span class="badge"><a href="#">Financial</a></span>
+                                <span class="badge"><a href="#">Capital Markets</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 p-0 input-group">
+                            <input type="text" class="form-control" placeholder="Enter Keywords">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 p-0 input-group align-self-center">
+                            <button class="btn primary-button">SEARCH</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 d-flex justify-content-center  align-items-center">
-                <div class="social-icons">
-                    <a href="#" class="icon fb"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal [sign] -->
+<div id="sign" class="p-0 modal fade" role="dialog" aria-labelledby="sign" aria-hidden="true">
+<div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+            <i class="icon-close fas fa-arrow-right"></i>
+        </div>
+        <div class="modal-body">
+            <form action="/" class="row">
+                <div class="col-12 p-0 align-self-center">
+                    <div class="row">
+                        <div class="col-12 p-0 pb-3">
+                            <h2>Sign In</h2>
+                            <p>Don't have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 p-0 input-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-12 p-0 input-group">
+                            <input type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 p-0 input-group align-self-center">
+                            <button class="btn primary-button">SIGN IN</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal [register] -->
+<div id="register" class="p-0 modal fade" role="dialog" aria-labelledby="register" aria-hidden="true">
+<div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+            <i class="icon-close fas fa-arrow-right"></i>
+        </div>
+        <div class="modal-body">
+            <form action="/" class="row">
+                <div class="col-12 p-0 align-self-center">
+                    <div class="row">
+                        <div class="col-12 p-0 pb-3">
+                            <h2>Register</h2>
+                            <p>Have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 p-0 input-group">
+                            <input type="text" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="col-12 p-0 input-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-12 p-0 input-group">
+                            <input type="password" class="form-control" placeholder="Password" required>
+                        </div>
+                        <div class="col-12 p-0 input-group">
+                            <input type="password" class="form-control" placeholder="Confirm Password" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 p-0 input-group align-self-center">
+                            <button class="btn primary-button">REGISTER</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal [map] -->
+<div id="map" class="p-0 modal fade" role="dialog" aria-labelledby="map" aria-hidden="true">
+<div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content full">
+        <div class="modal-header absolute" data-dismiss="modal">
+            <i class="icon-close fas fa-arrow-right"></i>
+        </div>
+        <div class="modal-body p-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr" width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal [responsive menu] -->
+<div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
+<div class="modal-dialog modal-dialog-slideout" role="document">
+    <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+            <i class="icon-close fas fa-arrow-right"></i>
+        </div>
+        <div class="menu modal-body">
+            <div class="row w-100">
+                <div class="items p-0 col-12 text-center">
+                    <!-- Append [navbar] -->
+                </div>
+                <div class="contacts p-0 col-12 text-center">
+                    <!-- Append [navbar] -->
                 </div>
             </div>
         </div>
     </div>
+</div>
+</div>
 
+<!-- Scroll [to top] -->
+<div id="scroll-to-top" class="scroll-to-top">
+<a href="#header" class="smooth-anchor">
+    <i class="fas fa-arrow-up"></i>
+</a>
+</div>        
 
-    </div>
-</footer><!-- End Footer -->
+<!-- ==============================================
+Google reCAPTCHA // Put your site key here
+=============================================== -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
 
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-
-<!-- Template Main JS File -->
+<!-- ==============================================
+Vendor Scripts
+=============================================== -->
+<script src="assets/js/vendor/jquery.min.js"></script>
+<script src="assets/js/vendor/jquery.easing.min.js"></script>
+<script src="assets/js/vendor/jquery.inview.min.js"></script>
+<script src="assets/js/vendor/popper.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/vendor/ponyfill.min.js"></script>
+<script src="assets/js/vendor/slider.min.js"></script>
+<script src="assets/js/vendor/animation.min.js"></script>
+<script src="assets/js/vendor/progress-radial.min.js"></script>
+<script src="assets/js/vendor/bricklayer.min.js"></script>
+<script src="assets/js/vendor/gallery.min.js"></script>
+<script src="assets/js/vendor/shuffle.min.js"></script>
+<script src="assets/js/vendor/cookie-notice.min.js"></script>
+<script src="assets/js/vendor/particles.min.js"></script>
 <script src="assets/js/main.js"></script>
-
-<script>
-    const sliderWrapper = document.querySelector('.slider-wrapper');
-let scrollAmount = 1; // Adjust this value to control speed
-
-function startSlider() {
-    // Move the slider to the left continuously
-    sliderWrapper.style.transform = `translateX(${-scrollAmount}px)`;
-    
-    // Keep increasing the scroll amount for smooth movement
-    scrollAmount += 1; // Adjust for speed, higher value = faster scroll
-
-    // If the scroll amount exceeds the width of one set of images, reset it
-    if (scrollAmount >= sliderWrapper.scrollWidth / 2) {
-        scrollAmount = 0; // Reset to start for infinite scrolling effect
-    }
-
-    requestAnimationFrame(startSlider);
-}
-
-// Initialize the slider
-requestAnimationFrame(startSlider);
-
-</script>
-
-
-<!-- header  -->
- <script>
-    window.addEventListener('scroll', function() {
-    const header = document.getElementById('header');
-    
-    if (window.scrollY > 50) {  // You can adjust the scroll threshold
-        header.classList.add('with-border');
-    } else {
-        header.classList.remove('with-border');
-    }
-});
-
- </script>
-<!-- header  -->
-
-<!-- pricing btn -->
- <script>
-    
-    document.querySelectorAll('.toggle-option').forEach(option => {
-  option.addEventListener('click', function() {
-    document.querySelectorAll('.toggle-option').forEach(btn => btn.classList.remove('active'));
-    this.classList.add('active');
-  });
-});
-
- </script>
-<!-- pricing btn -->

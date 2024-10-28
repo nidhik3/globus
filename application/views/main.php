@@ -1,518 +1,514 @@
-<style>
-    .slider-container {
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .slider-wrapper {
-        display: flex;
-        width: calc(12 * 10%);
-        /* 12 items */
-    }
-
-    .slider-item {
-        /* min-width: 17%; */
-        box-sizing: border-box;
-    }
-
-    .slider-item img {
-        /* width: 200px;
-        height: 33px; */
-    }
-
-    .slider {
-        position: absolute;
-        bottom: 10%;
-    }
-
-    /* Overlay styles */
-    .slider-overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 20%;
-        /* Adjust the width to control the overlay size */
-        pointer-events: none;
-        /* Make it non-interactive */
-        background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-        z-index: 1;
-        /* Ensure it stays above the slider */
-    }
-
-    .slider-overlay-left {
-        left: 0;
-        background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-        /* Fade from white to transparent */
-    }
-
-    .slider-overlay-right {
-        right: 0;
-        background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-        /* Fade from white to transparent */
-    }
-</style>
-<!-- banner -->
-
-<section>
-    <div class="img1-container">
-        <div class="img1">
-            <img src="assets/img/banner1.png" alt="">
-        </div>
-
-        <div class="container">
-            <div class="txt3">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-6  text-center">
-                        <p class="t1">Fuel your clinic’s success with <span class="gradient"> Intelligent
-                                solutions</span> </p>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-5 text-center">
-                        <p class="">A complete solution to elevate patient care, streamline workflows, and enhance your
-                            practice's efficiency.</p>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-4 d-flex justify-content-evenly align-items-center ">
-                        <div class="col-md-5 col-5"> <a class="black" href=" ">Explore Features</a></div>
-                        <div class="col-md-5 col-5"> <a class="transparent" href=" ">Get Started</a></div>
-
-
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="row ">
-                <div class="slider-container">
-                    <!-- Left white overlay -->
-                    <div class="slider-overlay slider-overlay-left"></div>
-
-                    <!-- Slider wrapper -->
-                    <div class="slider-wrapper">
-                        <div class="slider-item"><img src="assets/img/img1.png" alt="Image 1"></div>
-                        <div class="slider-item"><img src="assets/img/img2.png" alt="Image 2"></div>
-                        <div class="slider-item"><img src="assets/img/img3.png" alt="Image 3"></div>
-                        <div class="slider-item"><img src="assets/img/img4.png" alt="Image 4"></div>
-                        <div class="slider-item"><img src="assets/img/img5.png" alt="Image 5"></div>
-                        <div class="slider-item"><img src="assets/img/img6.png" alt="Image 6"></div>
-                        <!-- Duplicate images for infinite scroll -->
-                        <div class="slider-item"><img src="assets/img/img1.png" alt="Image 1"></div>
-                        <div class="slider-item"><img src="assets/img/img2.png" alt="Image 2"></div>
-                        <div class="slider-item"><img src="assets/img/img3.png" alt="Image 3"></div>
-                        <div class="slider-item"><img src="assets/img/img4.png" alt="Image 4"></div>
-                        <div class="slider-item"><img src="assets/img/img5.png" alt="Image 5"></div>
-                        <div class="slider-item"><img src="assets/img/img6.png" alt="Image 6"></div>
-                    </div>
-
-                    <!-- Right white overlay -->
-                    <div class="slider-overlay slider-overlay-right"></div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-</section>
-
-
-<!-- banner -->
-
-<!--elevate -->
-<section class="noBottom">
-    <div class="container space-x">
-        <div class="row d-flex justify-content-center align-items-center  pb-3">
-            <div class="col-md-12 d-flex justify-content-center">
-                <a class="light-blue"><img src="assets/img/icon1.png" alt="">Unique Features</a>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-7 text-center">
-                <p class="t1">Designed to fit into <span class="gradient"> your world</span> ,
-                    not the other way around.</p>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center align-items-center pb-3">
-            <div class="col-md-7 text-center">
-                <p class="">Explore Aesthetic AI’s Advanced Features—Enhance patient care, optimize workflows, and drive
-                    practice success with ease.</p>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<div class="bgimg  pt-0 pt-md-5" style="background-image: url('assets/img/banner1.png') ;width:100%; background-size: cover;">
-    <div class="container space-x">
-        <div class="row d-flex justify-content-evenly ">
-            <div class="col-md-5">
-                <div class="card card2 ">
-                    <div class="card-body cbody pb-3">
-                        <h5 class="card-title">Seamless Patient Management</h5>
-                        <p class="card-text">From booking appointments to post-procedure follow-ups, manage every
-                            aspect of patient care seamlessly.</p>
-                    </div>
-                    <img class="card-img-top ci" src="assets/img/card1.png" alt="Card image cap">
-
-                </div>
-            </div>
-            <div class="col-md-7 pt-3 pt-md-0">
-                <div class="card card2 ">
-                    <div class="card-body cbody pb-3">
-                        <h5 class="card-title">Tailored for Dermatologists & Dentists</h5>
-                        <div class="col-md-9">
-                            <p class="card-text">Custom-built to meet the specific needs of your practice, offering specialized tools for each field.</p>
-                        </div>
-                    </div>
-                    <img class="card-img-top ci p-0 " src="assets/img/card2.png" alt="Card image cap">
-
-                </div>
-            </div>
-        </div>
-        <div class="row pt-4 d-flex justify-content-evenly">
-            <div class="col-md-7 pt-3 pt-md-0">
-                <div class="card card2 ">
-                    <div class="card-body cbody pb-3">
-                        <h5 class="card-title">Easy Prescription Management</h5>
-                        <div class="col-md-9">
-                            <p class="card-text">Generate and manage prescriptions with just a few clicks, ensuring accuracy and compliance.</p>
-                        </div>
-                    </div>
-                    <img class="card-img-top ci " src="assets/img/card3.png" alt="Card image cap">
-
-                </div>
-            </div>
-            <div class="col-md-5 pt-3 pt-md-0">
-                <div class="card card2 ">
-                    <div class="card-body cbody pb-3">
-                        <h5 class="card-title">Integrated Payment Solutions</h5>
-                        <p class="card-text">Simplify payments with secure, integrated billing that enhances the patient experience.</p>
-                    </div>
-                    <img class="card-img-top ci" src="assets/img/card4.png" alt="Card image cap">
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-<!-- elevate -->
-
-
-<!--streamline -->
-<section class="space">
-    <div class="container space-x">
-        <div class="row d-flex justify-content-center align-items-center pb-3">
-            <div class="col-md-4 text-center d-flex justify-content-center align-items-center   ">
-                <a class="light-blue light-blue1"><img src="assets/img/icon2.png" alt="">Product Showcase</a>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center align-items-center ">
-            <div class="col-md-7 text-center">
-                <p class="t1 gradient">Streamlined, Intuitive, and Powerful.</p>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-8 text-center">
-                <p class="">Aesthetics AI simplifies every step of patient care.</p>
-            </div>
-        </div>
-        <div class="center-gradient py-1 py-md-5" style="background-image: url('assets/img/center-gradient.png');width:100%; background-size: cover;">
-
-            <div class="row d-flex justify-content-center" style="position: relative;">
-                <div class="col-md-9 d-flex justify-content-evenly align-items-center">
-
-                    <div class=" ic1">
-                        <div class="row d-flex">
-                            <div class="col-md-2">
-                                <img src="assets/img/sicon1.png" alt="">
-                            </div>
-                            <div class="col-md-4">
-                                <p>Seamless Appointments</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class=" ic2">
-                        <div class="row d-flex">
-                            <div class="col-md-2">
-
-                            </div>
-                            <div class="col-md-2">
-                                <img src="assets/img/sicon1.png" alt="">
-                            </div>
-                            <div class="col-md-4  ">
-                                <p>Seamless Appointment</p>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                    <div class=" ic3">
-                        <div class="row ">
-                            <div class="col-md-3">
-                                <img src="assets/img/sicon2.png" alt="">
-                            </div>
-                            <div class="col-md-6 px-1">
-                                <p>Analytics & Reports</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class=" ic4">
-                        <div class="row d-flex">
-                            <div class="col-md-2">
-
-                            </div>
-                            <div class="col-md-3">
-                                <img src="assets/img/sicon3.png" alt="">
-                            </div>
-                            <div class="col-md-4  px-1">
-                                <p>Prescription Ease</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="i1 p-3 pt-md-5"> <img src="assets/img/m1.png" style="max-width: 100%;" alt=""></div>
-                    <div class="i2"><img src="assets/img/m2.png" style="max-width: 100%;" alt=""></div>
-                    <div class="i3 p-3 pt-md-5"><img src="assets/img/m3.png" style="max-width: 100%;" alt=""></div>
-                </div>
-            </div>
-
-        </div>
-        <div class="row d-flex justify-content-center align-items-center pt-4">
-            <div class="col-md-8 text-center">
-                <p class="">Built with the latest technology, our platform is designed to be both powerful and easy to
-                    use, ensuring you can focus on what matters most – <span class="gradient"> your patients.</span></p>
-            </div>
-        </div>
-
-    </div>
-
-
-</section>
-
-<!-- streamline -->
-
-
-<!-- your practice -->
-<section>
-    <div class="img1-container practise1">
-        <div class="img1">
-            <img src="assets/img/practice.png" alt="">
-        </div>
-        <div class="container ">
-            <div class="txt1">
-                <div class="row  pb-3">
-                    <div class="col-md-2 text-center">
-                        <a class="light-blue"><img src="assets/img/icon3.png" alt="">Customise</a>
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col-md-6 text-start">
-                        <p class="t1 gradient pb-1">Your practice, your rules,
-                            Supported by flexible tools.</p>
-                    </div>
-                </div>
-                <div class="row p-0 pt-md-4">
-                    <div class="col-md-5 d-flex">
-                        <div class="col-md-1"> <img src="assets/img/tick.png" alt=""></div>
-                        <div class="col-md-10">
-                            <p> <b>Flexible Configuration:</b> Adapt the platform to match your specific workflows and
-                                preferences.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row  pt-2">
-                    <div class="col-md-5 d-flex">
-                        <div class="col-md-1"> <img src="assets/img/tick.png" alt=""></div>
-                        <div class="col-md-10">
-                            <p> <b>Personalized Dashboards:</b> Customize your dashboard to display the metrics and
-                                tools most relevant to you.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row  pt-2">
-                    <div class="col-md-5 d-flex">
-                        <div class="col-md-1"> <img src="assets/img/tick.png" alt=""></div>
-                        <div class="col-md-10">
-                            <p> <b>Specialized Tools:</b> Choose from a range of tools designed specifically for
-                                dermatologists and dentists.</p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row  pt-2">
-                    <div class="col-md-5 d-flex">
-                        <div class="col-md-1"> <img src="assets/img/tick.png" alt=""></div>
-                        <div class="col-md-10">
-                            <p> <b> Scalable Solutions:</b> Easily scale features and functionality as your practice
-                                grows.</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!--  <div class="row">
-            <div class="col-md-2 text-center">
-                <a class="gradient-border" href=" ">Click to Customise</a>
-            </div>
-        </div> -->
-        </div>
-
-</section>
-<!-- your practice -->
-
-<!-- ready -->
-<section>
-    <div class="img1-container">
-        <div class="img1">
-            <img src="assets/img/ready.png" alt="">
-        </div>
-
-        <div class="container">
-            <div class="txt2">
-                <div class="row d-flex justify-content-center align-items-center pb-3">
-                    <div class="col-md-2 text-center  d-flex justify-content-center align-items-center  ">
-                        <a class="join-us"><img src="assets/img/icon4.png" alt="">Join us</a>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center ">
-                    <div class="col-md-6 text-center">
-                        <p class="t1 gradient">Ready to Revolutionize Your Practice?</p>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center pb-4">
-                    <div class="col-md-4 text-center">
-                        <p class="" style="color: white;">Get started with Aesthetic AI today and experience the future
-                            of patient care.</p>
-                    </div>
-                </div>
-                <div class="row d-flex justify-content-center align-items-center ">
-                    <div class="col-md-2 col-6 text-center">
-                        <a class="transparent-white" href=" ">Request a Demo</a>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-    </div>
-
-</section>
-<!-- ready-->
-
-<!-- pricing -->
-<section class="space">
-    <div class="container">
-        <div class="row d-flex justify-content-center align-items-center pb-3">
-            <div class="col-md-2 text-center  d-flex justify-content-center align-items-center  ">
-                <a class="light-blue"><img src="assets/img/icon5.png" alt="">Our Pricing </a>
-
-            </div>
-        </div>
-
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-7 text-center">
-                <p class="t1 mb-1">Our Pricing Plans</p>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-8 text-center">
-                <p class="m-0">Discover and select a plan that suits you well.</p>
-            </div>
-        </div>
-
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="toggle-container">
-                <div class="toggle-btn ">
-                    <div class="toggle-option active d-flex align-items-center justify-content-center" id="monthly">Monthly</div>
-                    <div class="toggle-option d-flex align-items-center  justify-content-center" id="yearly">Yearly</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row d-flex justify-content-evenly  ">
-            <div class="col-md-10 d-flex justify-content-evenly align-items-center">
-                <div class="i1"> <img src="assets/img/p1.png" style="max-width: 100%;" alt=""></div>
-                <div class="i2"><img src="assets/img/p2.png" style="max-width: 100%;" alt=""></div>
-                <div class="i3"><img src="assets/img/p3.png" style="max-width: 100%;" alt=""></div>
-            </div>
-        </div>
-
-        <div class="row pt-4 d-flex justify-content-center align-items-center">
-            <div class="col-md-8 text-center">
-                <p class="">Terms & Conditions appied*</p>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-<!-- pricing -->
-
-<!-- download -->
-<section class="noTop">
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-            <div class="img1-container ">
-                <div class="img4">
-                    <img src="assets/img/download-banner.png" alt="" style="max-width:100%;">
-                </div>
-
-                <div class="container">
-                    <div class="txt4">
-                        <div class="row  pb-3">
-                            <div class="col-md-2 text-left   ">
-                                <a class="application"><img src="assets/img/icon4.png" alt="">Application</a>
-                            </div>
-                        </div>
-                        <div class="row  ">
-                            <div class="col-md-5 text-left">
-                                <p class="t1 dw ">Download the App
-                                    Now.</p>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-md-4 text-left">
-                                <p class="pg">Get started with Aesthetic AI today and experience the future
-                                    of patient care.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-2 col-8 text-center pb-4 position-relative">
-                                <a class="download" href=" ">Download Now</a>
-
-                                <div class="logos white-btn text-end">
-                                    <a href="#">
-                                        <img src="assets/img/apple.png" alt="Apple" />
-                                    </a>
-                                    <a href="#">
-                                        <img src="assets/img/android.png" alt="Android" />
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-1"></div>
-    </div>
-
-
-</section>
-<!-- download -->
+ <!-- Hero -->
+ <section id="slider" class="hero p-0 odd">
+     <div class="swiper-container no-slider animation slider-h-100 slider-h-auto">
+         <div class="swiper-wrapper">
+
+             <!-- Item 1 -->
+             <div class="swiper-slide slide-center">
+
+                 <!-- Media -->
+                 <img src="assets/images/bg-4.jpg" alt="Full Image" class="full-image" data-mask="50">
+
+                 <div class="slide-content row">
+                     <div class="col-12 d-flex justify-content-start inner">
+                         <div class="left text-left">
+
+                             <!-- Content -->
+                             <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">
+                                 <span class="pre-title m-0">Human Resources</span>
+                                 <span class="pt-5"> Outsourcing<span class="featured bottom"><span>Your Way!</span></span>
+                             </h1>
+                             <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> A Trusted Outsourced Firm for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing in Australia </p>
+
+                             <!-- Action -->
+                             <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                                 <div class="d-sm-inline-flex">
+                                     <a href="#contact" class="smooth-anchor mt-4 btn primary-button">Know More</a>
+                                     <!-- <a href="#features" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a> -->
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+     </div>
+ </section>
+
+ <!-- Features -->
+ <section id="features" class="section-1 features offers featured">
+     <div class="container">
+         <div class="row justify-content-center items">
+             <div class="col-12 col-md-6 col-lg-4 item">
+                 <div class="card">
+                     <i class="icon featured icon-people"></i>
+                     <h4>Human Capital</h4>
+                     <p>Humanizing business: Harness the power of technology to improve the way people work.</p>
+                 </div>
+             </div>
+             <div class="col-12 col-md-6 col-lg-4 item">
+                 <div class="card">
+                     <i class="icon featured icon-pie-chart"></i>
+                     <h4>Core Business</h4>
+                     <p>It takes innovative approaches to transform, modernize, and run existing platforms.</p>
+                 </div>
+             </div>
+             <div class="col-12 col-md-6 col-lg-4 item">
+                 <div class="card">
+                     <i class="icon featured icon-speedometer"></i>
+                     <h4>Performance</h4>
+                     <p>Achieving maximum impact and value from investments in finance and supply chain.</p>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!-- Fun Facts -->
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items">
+                 <div data-aos="fade-up" class="row intro mb-4">
+                     <div class="col-12 p-0">
+                         <span class="pre-title m-auto m-md-0">About the network</span>
+                         <h2><span class="featured"><span>About</span></span>  Us</h2>
+                         <p>We offer a wide suite for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing services across Australia through innovative ideas and integrated solutions. With us, you can be sure of receiving carefully curated services that meet your unique requirements.</p>   <p>Possessing a combined experience of 20+ years in the industry, our team of exceptionally talented professionals helps strengthen your business while simultaneously offering you a comprehensive understanding of the industry trends.</p>
+                     </div>
+                 </div>
+                 <div class="row items">
+                     <div data-aos="fade-up" class="col-12 col-md-4 p-0 pr-md-4 item">
+                         <div data-percent="230" class="radial left">
+                             <span></span>
+                         </div>
+                         <h4>Employees</h4>
+                         <p>Lorem ipsum dolor sit amet.</p>
+                     </div>
+                     <div data-aos="fade-up" class="col-12 col-md-4 p-0 pr-md-4 item">
+                         <div data-percent="164" class="radial left">
+                             <span></span>
+                         </div>
+                         <h4>Partners</h4>
+                         <p>Lorem ipsum dolor sit amet.</p>
+                     </div>
+                     <div data-aos="fade-up" class="col-12 col-md-4 p-0 pr-md-4 item">
+                         <div data-percent="517" class="radial left">
+                             <span></span>
+                         </div>
+                         <h4>Customers</h4>
+                         <p>Lorem ipsum dolor sit amet.</p>
+                     </div>
+                 </div>
+
+                 <!-- Action -->
+                 <div data-aos="fade-up" class="buttons">
+                     <div class="d-sm-inline-flex mb-5 mb-md-0">
+                         <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a>
+                         <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-12 col-md-6 p-0 image">
+                 <img src="assets/images/about-5.jpg" class="fit-image" alt="Fit Image">
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!-- Projects -->
+ <section id="projects" class="section-3 odd showcase blog-grid filter-section projects">
+     <div class="overflow-holder">
+         <div class="container">
+             <div class="row text-center intro">
+                 <div class="col-12">
+                     <span class="pre-title">We do more for everyone</span>
+                     <h2 class="mb-0">Actions & <span class="featured"><span>Projects</span></span></h2>
+                 </div>
+             </div>
+             <div class="row justify-content-center text-center">
+                 <div class="col-12">
+                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                         <label class="btn active">
+                             <input type="radio" value="all" checked class="btn-filter-item">
+                             <span>All</span>
+                         </label>
+                         <label class="btn">
+                             <input type="radio" value="institutional" class="btn-filter-item">
+                             <span>Institutional</span>
+                         </label>
+                         <label class="btn">
+                             <input type="radio" value="social" class="btn-filter-item">
+                             <span>Social</span>
+                         </label>
+                         <label class="btn">
+                             <input type="radio" value="events" class="btn-filter-item">
+                             <span>Events</span>
+                         </label>
+                         <label class="btn">
+                             <input type="radio" value="innovation" class="btn-filter-item">
+                             <span>Innovation</span>
+                         </label>
+                         <label class="btn">
+                             <input type="radio" value="environment" class="btn-filter-item">
+                             <span>Environment</span>
+                         </label>
+                         <label class="btn">
+                             <input type="radio" value="technology" class="btn-filter-item">
+                             <span>Technology</span>
+                         </label>
+                     </div>
+                 </div>
+             </div>
+             <div class="row items filter-items">
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-1.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>Academic professional program in social media</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["institutional","events","environment"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-2.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>President's speech at the annual meeting</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-3.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>International business trip in Shanghai</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-4.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>Technology workshop with education theme</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["social","environment","events"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-5.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>Donation of clothes and food to the partner NGO</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","institutional","technology"]'>
+                     <div class="row card p-0 text-center">
+                         <div class="image-over">
+                             <img src="assets/images/project-6.jpg" alt="Lorem ipsum">
+                         </div>
+                         <div class="card-caption col-12 p-0">
+                             <div class="card-body">
+                                 <a href="#">
+                                     <h4>Confraternization of the procurement team</h4>
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 </a>
+                             </div>
+                         </div>
+                         <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
+                     </div>
+                 </div>
+                 <div class="col-1 filter-sizer"></div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!-- Process -->
+ <section id="process" class="section-4 process offers">
+     <div class="container full">
+         <div class="row text-center intro">
+             <div class="col-12">
+                 <span class="pre-title">How it works in practice</span>
+                 <h2><span class="featured"><span>Process</span></span> Management</h2>
+                 <p class="text-max-800">We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
+             </div>
+         </div>
+         <div class="row justify-content-center text-center items">
+             <div class="col-12 col-md-6 col-lg-2 item">
+                 <div class="step"><span>01</span></div>
+                 <h4>Collection of information</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur.</p>
+             </div>
+             <div class="col-12 col-md-6 col-lg-2 item">
+                 <div class="step"><span>02</span></div>
+                 <h4>Strategic planning</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur.</p>
+             </div>
+             <div class="col-12 col-md-6 col-lg-2 item">
+                 <div class="step"><span>03</span></div>
+                 <h4>Assignment of responsibilities</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur.</p>
+             </div>
+             <div class="col-12 col-md-6 col-lg-2 item">
+                 <div class="step"><span>04</span></div>
+                 <h4>Formatting process</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur.</p>
+             </div>
+             <div class="col-12 col-md-6 col-lg-2 item">
+                 <div class="step"><span>05</span></div>
+                 <h4>Continuity formalization</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur.</p>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!-- Testimonials -->
+ <section id="testimonials" class="section-5 carousel testimonials">
+     <div class="overflow-holder">
+         <div class="container">
+             <div class="row text-center intro">
+                 <div class="col-12">
+                     <span class="pre-title">Customer Testimonials</span>
+                     <h2>Trusted <span class="featured"><span>Feedback</span></span></h2>
+                     <p class="text-max-800">We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p>
+                 </div>
+             </div>
+             <div class="swiper-container mid-slider items" data-perview="3">
+                 <div class="swiper-wrapper">
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-1.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-2.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-3.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-4.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-5.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-1.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-2.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-3.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-4.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="swiper-slide slide-center item">
+                         <div class="row card">
+                             <div class="col-12">
+                                 <img src="assets/images/logo-5.png" alt="Logo" class="logo">
+                                 <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                 <i class="quote-right fas fa-quote-right"></i>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+
+ <!-- Contact -->
+ <section id="contact" class="section-6 odd form contact">
+     <div class="container">
+         <div class="row">
+             <div class="col-12 col-md-8 pr-md-5 align-self-center text">
+                 <div class="row intro">
+                     <div class="col-12 p-0">
+                         <span class="pre-title m-0">Send a message</span>
+                         <h2>Get in <span class="featured"><span>Touch</span></span></h2>
+                         <p>We will respond to your message as soon as possible.</p>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-12 p-0">
+                         <form action="php/form.php" id="nexgen-simple-form" class="nexgen-simple-form">
+                             <input type="hidden" name="section" value="nexgen_form">
+
+                             <input type="hidden" name="reCAPTCHA">
+                             <!-- Remove this field if you want to disable recaptcha -->
+
+                             <div class="row form-group-margin">
+                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                     <input type="text" name="name" class="form-control field-name" placeholder="Name">
+                                 </div>
+                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                     <input type="email" name="email" class="form-control field-email" placeholder="Email">
+                                 </div>
+                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                     <input type="text" name="phone" class="form-control field-phone" placeholder="Phone">
+                                 </div>
+                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                     <i class="icon-arrow-down mr-3"></i>
+                                     <select name="info" class="form-control field-info">
+                                         <option value="" selected disabled>More Info</option>
+                                         <option>Audit & Assurance</option>
+                                         <option>Financial Advisory</option>
+                                         <option>Analytics and M&A</option>
+                                         <option>Middle Marketing</option>
+                                         <option>Legal Consulting</option>
+                                         <option>Regulatory Risk</option>
+                                         <option>Other</option>
+                                     </select>
+                                 </div>
+                                 <div class="col-12 m-0 p-2 input-group">
+                                     <textarea name="message" class="form-control field-message" placeholder="Message"></textarea>
+                                 </div>
+                                 <div class="col-12 col-12 m-0 p-2 input-group">
+                                     <span class="form-alert"></span>
+                                 </div>
+                                 <div class="col-12 input-group m-0 p-2">
+                                     <a class="btn primary-button">SEND</a>
+                                 </div>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-12 col-md-4">
+                 <div class="contacts">
+                     <h4>Example Inc.</h4>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                     <p>Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+                     <ul class="navbar-nav">
+                         <li class="nav-item">
+                             <a href="#" class="nav-link">
+                                 <i class="fas fa-phone-alt mr-2"></i>
+                                 +1 (305) 1234-5678
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="#" class="nav-link">
+                                 <i class="fas fa-envelope mr-2"></i>
+                                 hello@example.com
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="#" class="nav-link">
+                                 <i class="fas fa-map-marker-alt mr-2"></i>
+                                 Main Avenue, 987
+                             </a>
+                         </li>
+                         <li class="nav-item">
+                             <a href="#" class="mt-2 btn outline-button" data-toggle="modal" data-target="#map">VIEW MAP</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
