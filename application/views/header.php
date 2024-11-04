@@ -146,7 +146,7 @@
                     <!-- Navbar Items -->
                     <ul class="navbar-nav items">
                         <li class="nav-item ">
-                            <a href="#" class="nav-link n-menu">HOME </a>
+                            <a href="main" class="nav-link n-menu">HOME </a>
                           
                         </li>   
                         <li class="nav-item dropdown">
