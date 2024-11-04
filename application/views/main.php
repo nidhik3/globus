@@ -15,7 +15,7 @@
 
                              <!-- Content -->
                              <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">
-                                 <span class="pre-title m-0">Human Resources</span>
+                                 <!-- <span class="pre-title m-0">Human Resources</span> -->
                                  <span class="pt-5"> Outsourcing<span class="featured bottom"><span>Your Way!</span></span>
                              </h1>
                              <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger"> A Trusted Outsourced Firm for Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing in Australia </p>
@@ -47,7 +47,7 @@
      </div>
  </section>
 
- <!-- Fun Facts -->
+ <!-- about -->
  <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
      <div class="container">
          <div class="row">
@@ -160,12 +160,12 @@
                      <p>With an array of effectively efficient services, we aid you in gaining a business foothold and a distinguished mark in the industry. Our unremitting efforts combined with the zeal to offer quality deliverables bring consistent results that boost growth throughout.</p>
                  </div>
              </div>
-         
+
              <div class="row my-3  d-flex justify-content-center">
                  <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
                      <div class="row card p-0 text-center">
                          <div class="image-over">
-                             <img src="assets/images/project-3.jpg" alt="Lorem ipsum">
+                             <img src="assets/images/project-1.webp" alt="Lorem ipsum">
                          </div>
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
@@ -181,7 +181,7 @@
                  <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
                      <div class="row card p-0 text-center">
                          <div class="image-over">
-                             <img src="assets/images/project-4.jpg" alt="Lorem ipsum">
+                             <img src="assets/images/project-4.webp" alt="Lorem ipsum">
                          </div>
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
@@ -202,7 +202,7 @@
                  <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
                      <div class="row card p-0 text-center">
                          <div class="image-over">
-                             <img src="assets/images/project-3.jpg" alt="Lorem ipsum">
+                             <img src="assets/images/project-4.webp" alt="Lorem ipsum">
                          </div>
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
@@ -218,7 +218,7 @@
                  <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
                      <div class="row card p-0 text-center">
                          <div class="image-over">
-                             <img src="assets/images/project-4.jpg" alt="Lorem ipsum">
+                             <img src="assets/images/project-1.webp" alt="Lorem ipsum">
                          </div>
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
@@ -276,7 +276,7 @@
  </section>
 
  <!-- Process -->
- <section id="process" class="section-4 process offers">
+ <!-- <section id="process" class="section-4 process offers">
      <div class="container full">
          <div class="row text-center intro">
              <div class="col-12">
@@ -313,17 +313,17 @@
              </div>
          </div>
      </div>
- </section>
+ </section> -->
 
  <!-- Testimonials -->
- <section id="testimonials" class="section-5 carousel testimonials">
+ <!-- <section id="testimonials" class="section-5 carousel testimonials">
      <div class="overflow-holder">
          <div class="container">
              <div class="row text-center intro">
                  <div class="col-12">
-                     <!-- <span class="pre-title">Customer Testimonials</span> -->
+              
                      <h2>Knowledge <span class="featured"><span> Treasure </span></span></h2>
-                     <!-- <p class="text-max-800">We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p> -->
+                   
                  </div>
              </div>
              <div class="swiper-container mid-slider items" data-perview="3">
@@ -432,94 +432,31 @@
              </div>
          </div>
      </div>
- </section>
+ </section> -->
 
- <!-- Contact -->
- <section id="contact" class="section-6 odd form contact">
+
+ <section id="funfacts" class="section-2 highlights image-right counter funfacts featured">
      <div class="container">
          <div class="row">
-             <div class="col-12 col-md-8 pr-md-5 align-self-center text">
-                 <div class="row intro">
+             <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items">
+                 <div data-aos="fade-up" class="row intro mb-4">
                      <div class="col-12 p-0">
-                         <span class="pre-title m-0">Send a message</span>
-                         <h2>Get in <span class="featured"><span>Touch</span></span></h2>
-                         <p>We will respond to your message as soon as possible.</p>
+                         <span class="pre-title m-auto m-md-0"> A Holistic Solution for All Your Outsourcing Needs </span>
+                         <h2>Our <span class="featured"><span>Services</span></span></h2>
+                         <p>Our experienced team in Australia extends a wide range of outsourced Bookkeeping, Accounting and Tax, SMSF, Paraplanning and Loans Processing services that are aimed towards enhancing your business stature and bringing optimum output at all times. With the aid of cutting-edge technology and advanced strategies, we strive to assist you in your business endeavors.</p>
                      </div>
                  </div>
-                 <div class="row">
-                     <div class="col-12 p-0">
-                         <form action="php/form.php" id="nexgen-simple-form" class="nexgen-simple-form">
-                             <input type="hidden" name="section" value="nexgen_form">
-
-                             <input type="hidden" name="reCAPTCHA">
-                             <!-- Remove this field if you want to disable recaptcha -->
-
-                             <div class="row form-group-margin">
-                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                     <input type="text" name="name" class="form-control field-name" placeholder="Name">
-                                 </div>
-                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                     <input type="email" name="email" class="form-control field-email" placeholder="Email">
-                                 </div>
-                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                     <input type="text" name="phone" class="form-control field-phone" placeholder="Phone">
-                                 </div>
-                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                     <i class="icon-arrow-down mr-3"></i>
-                                     <select name="info" class="form-control field-info">
-                                         <option value="" selected disabled>More Info</option>
-                                         <option>Audit & Assurance</option>
-                                         <option>Financial Advisory</option>
-                                         <option>Analytics and M&A</option>
-                                         <option>Middle Marketing</option>
-                                         <option>Legal Consulting</option>
-                                         <option>Regulatory Risk</option>
-                                         <option>Other</option>
-                                     </select>
-                                 </div>
-                                 <div class="col-12 m-0 p-2 input-group">
-                                     <textarea name="message" class="form-control field-message" placeholder="Message"></textarea>
-                                 </div>
-                                 <div class="col-12 col-12 m-0 p-2 input-group">
-                                     <span class="form-alert"></span>
-                                 </div>
-                                 <div class="col-12 input-group m-0 p-2">
-                                     <a class="btn primary-button">SEND</a>
-                                 </div>
-                             </div>
-                         </form>
+            
+                 <!-- Action -->
+                 <div data-aos="fade-up" class="buttons">
+                     <div class="d-sm-inline-flex mb-5 mb-md-0">
+                         <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">EXPLORE MORE</a>
+                         <!-- <a href="#" class="mx-auto ml-sm-4 mt-4 btn outline-button">EXPLORE MORE</a> -->
                      </div>
                  </div>
              </div>
-             <div class="col-12 col-md-4">
-                 <div class="contacts">
-                     <h4>Example Inc.</h4>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                     <p>Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
-                     <ul class="navbar-nav">
-                         <li class="nav-item">
-                             <a href="#" class="nav-link">
-                                 <i class="fas fa-phone-alt mr-2"></i>
-                                 +1 (305) 1234-5678
-                             </a>
-                         </li>
-                         <li class="nav-item">
-                             <a href="#" class="nav-link">
-                                 <i class="fas fa-envelope mr-2"></i>
-                                 hello@example.com
-                             </a>
-                         </li>
-                         <li class="nav-item">
-                             <a href="#" class="nav-link">
-                                 <i class="fas fa-map-marker-alt mr-2"></i>
-                                 Main Avenue, 987
-                             </a>
-                         </li>
-                         <li class="nav-item">
-                             <a href="#" class="mt-2 btn outline-button" data-toggle="modal" data-target="#map">VIEW MAP</a>
-                         </li>
-                     </ul>
-                 </div>
+             <div class="col-12 col-md-6 p-0 image">
+                 <img src="assets/images/about.webp" class="fit-image" alt="Fit Image">
              </div>
          </div>
      </div>

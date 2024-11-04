@@ -86,11 +86,11 @@
                 <div class="container header">
 
                     <!-- Navbar Items [left] -->
-                    <ul class="navbar-nav">
+                    <!-- <ul class="navbar-nav">
                         <li class="nav-item">
                             <a href="#" class="nav-link pl-0"><i class="fas fa-clock mr-2"></i>Open Hours: Mon - Sat - 9:00 - 18:00</a>
                         </li>
-                    </ul>
+                    </ul> -->
 
                     <!-- Nav holder -->
                     <div class="ml-auto"></div>
@@ -236,7 +236,7 @@
                             <a href="#" class="nav-link  n-menu">FAQ'S </a>
                         </li> 
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link  n-menu ">CONTACT US </a>
+                            <a href="contact" class="nav-link  n-menu ">CONTACT US </a>
                         </li>
                     </ul>
 
@@ -254,7 +254,7 @@
                     <!-- Navbar Action -->
                     <ul class="navbar-nav action">
                         <li class="nav-item ml-3">
-                            <a href="https://themeforest.net/item/nexgen-corporate-business-consulting-html-template/27965988?license=regular&open_purchase_for_item_id=27965988" target="_blank" class="btn ml-lg-auto primary-button">SCHEDULE CALL  </a>
+                            <a href="#" target="_blank" class="btn ml-lg-auto primary-button">SCHEDULE CALL  </a>
                             <!-- 
                                 Suggestion: Replace the purchase button above with a contact button.
                                 

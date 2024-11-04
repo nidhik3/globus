@@ -1,184 +1,138 @@
-   <!-- Footer -->
-   <footer>
-
-<!-- Copyright -->
-<section id="copyright" class="p-3 odd copyright">
+<!-- Footer Start -->
+<footer
+    class="aai-footer pt-120"
+    style=" background: url('assets/img/bg/footer-bg.jpeg') no-repeat center
+          center/cover; background-color:#03091b;">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 p-3 text-center text-lg-left">
-                <p>Enjoy the low price. We are tracking any intention of piracy.</p>
-                <!--
-                    Suggestion: Replace the text above with a description of your website.
-                 -->
-            </div>
-            <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                <p>© 2023 NEXGEN is Proudly Powered by <a href="https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
+
+        <div class="aai-footer-navigation-widgets py-80">
+            <div class="row">
+
+                <div
+                    class="col-xl-4 col-lg-4 col-md-4 mb-5 mb-lg-0"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1500">
+                    <nav class="aai-footer-nav">
+                        <h3 class="aai-footer-nav-title">Sitemap</h3>
+                        <ul class="aai-footer-nav-list">
+                            <li class="aai-footer-nav-list-item">
+                                <a href="main" class="aai-footer-nav-link"> Home </a>
+                            </li>
+                            <li class="aai-footer-nav-list-item">
+                                <a href="about" class="aai-footer-nav-link"> About Us </a>
+                            </li>
+                            <li class="aai-footer-nav-list-item">
+                                <a href="service1" class="aai-footer-nav-link">Services</a>
+                            </li>
+                            <li class="aai-footer-nav-list-item">
+                                <a href="product1" class="aai-footer-nav-link"> Product</a>
+                            </li>
+                            <!-- <li class="aai-footer-nav-list-item">
+                        <a href="features.html" class="aai-footer-nav-link"> Feature </a>
+                      </li> -->
+                        </ul>
+                    </nav>
+                </div>
+                <div
+                    class="col-xl-4 col-lg-4 col-md-4 mb-5 mb-lg-0"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                    data-aos-duration="1500">
+
+
+                    <nav class="aai-footer-nav">
+                        <h3 class="aai-footer-nav-title">Useful Links</h3>
+                        <ul class="aai-footer-nav-list">
+
+                            <li class="aai-footer-nav-list-item">
+                                <a href="privacy" class="aai-footer-nav-link">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li class="aai-footer-nav-list-item">
+                                <a href="terms" class="aai-footer-nav-link">Terms & Services </a>
+                            </li>
+                            <li class="aai-footer-nav-list-item">
+                                <a href="contact" class="aai-footer-nav-link">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="aai-social-links d-flex pt-md-3 pt-2">
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-twitter"></i></a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-instagram"></i></a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </nav>
+                </div>
+ 
+                <div
+             class="col-xl-4 col-lg-4 col-md-12"
+             data-aos="fade-right"
+             data-aos-duration="1500"
+             data-aos-delay="50">
+             <div class="aai-footer-info">
+               <a href="" class="aai-footer-logo">
+                 <img src="assets/image/logo.png" alt="" />
+               </a>
+               <div class="info mt-4 col-md-12  row" style="color:white;">
+                 <div class="phone row col-md-12 col-12 m-0 pt-md-3 pt-2" style="align-items: center;">
+                   <h6 class="col-md-2 col-2" style="font-weight: 700;"><span><i class="bi bi-phone"></i>
+                       &nbsp;</span>
+                   </h6>
+                   <p class="col-md-10 col-10 p-0">
+                     <a href="" style="color:white !important;">+91 98765 43210</a><br>
+                   </p>
+                 </div>
+                 <div class="email row col-md-12 m-0 pt-md-3 pt-2" style="align-items: center;">
+                   <h6 class="col-md-2 col-2" style="font-weight: 700;"><span><i
+                         class="bi bi-globe-americas"></i>
+                       &nbsp;</span></h6>
+                   <p class="col-md-10 col-10 p-0"> admin@prosoft.org.in
+                   </p>
+                 </div>
+                 <div class="address row col-md-12 m-0 pt-md-3 pt-2" style="align-items: center;">
+                   <h6 class="col-md-2 col-2" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i>
+                     </span></h6>
+                   <p class="col-md-10 col-10 p-0">PROSOFT LLC,
+                     Office No 10, Level 1,
+                     Sharjah Media City, Sharjah,UAE</p>
+                 </div>
+               </div>
+               
+             </div>
+           </div>
+           <div class="col-xl-8 col-lg-8 col-md-12 mt-5 mt-lg-0">
+             <div class="row">
+               <div
+                 class="col-xl-4 col-lg-4 col-md-4"
+                 data-aos="fade-up"
+                 data-aos-delay="500"
+                 data-aos-duration="1500">
+
+               </div>
+
             </div>
         </div>
     </div>
-</section>
-
+    </div>
+    <div class="aai-footer-copyright text-center">
+        <p class="aai-copyright-text">Copyright @2023 Prosoft</p>
+    </div>
+    </div>
 </footer>
 
-<!-- Modal [search] -->
-<div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
-<div class="modal-dialog modal-dialog-slideout" role="document">
-    <div class="modal-content full">
-        <div class="modal-header" data-dismiss="modal">
-            <i class="icon-close fas fa-arrow-right"></i>
-        </div>
-        <div class="modal-body">
-            <form class="row">
-                <div class="col-12 p-0 align-self-center">
-                    <div class="row">
-                        <div class="col-12 p-0">
-                            <h2>What are you looking for?</h2>
-                            <div class="badges">
-                                <span class="badge"><a href="#">Consulting</a></span>
-                                <span class="badge"><a href="#">Audit</a></span>
-                                <span class="badge"><a href="#">Assurance</a></span>
-                                <span class="badge"><a href="#">Advisory</a></span>
-                                <span class="badge"><a href="#">Financial</a></span>
-                                <span class="badge"><a href="#">Capital Markets</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 p-0 input-group">
-                            <input type="text" class="form-control" placeholder="Enter Keywords">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 p-0 input-group align-self-center">
-                            <button class="btn primary-button">SEARCH</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-</div>
-
-<!-- Modal [sign] -->
-<div id="sign" class="p-0 modal fade" role="dialog" aria-labelledby="sign" aria-hidden="true">
-<div class="modal-dialog modal-dialog-slideout" role="document">
-    <div class="modal-content full">
-        <div class="modal-header" data-dismiss="modal">
-            <i class="icon-close fas fa-arrow-right"></i>
-        </div>
-        <div class="modal-body">
-            <form action="/" class="row">
-                <div class="col-12 p-0 align-self-center">
-                    <div class="row">
-                        <div class="col-12 p-0 pb-3">
-                            <h2>Sign In</h2>
-                            <p>Don't have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 p-0 input-group">
-                            <input type="email" class="form-control" placeholder="Email" required>
-                        </div>
-                        <div class="col-12 p-0 input-group">
-                            <input type="password" class="form-control" placeholder="Password" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 p-0 input-group align-self-center">
-                            <button class="btn primary-button">SIGN IN</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-</div>
-
-<!-- Modal [register] -->
-<div id="register" class="p-0 modal fade" role="dialog" aria-labelledby="register" aria-hidden="true">
-<div class="modal-dialog modal-dialog-slideout" role="document">
-    <div class="modal-content full">
-        <div class="modal-header" data-dismiss="modal">
-            <i class="icon-close fas fa-arrow-right"></i>
-        </div>
-        <div class="modal-body">
-            <form action="/" class="row">
-                <div class="col-12 p-0 align-self-center">
-                    <div class="row">
-                        <div class="col-12 p-0 pb-3">
-                            <h2>Register</h2>
-                            <p>Have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 p-0 input-group">
-                            <input type="text" class="form-control" placeholder="Name" required>
-                        </div>
-                        <div class="col-12 p-0 input-group">
-                            <input type="email" class="form-control" placeholder="Email" required>
-                        </div>
-                        <div class="col-12 p-0 input-group">
-                            <input type="password" class="form-control" placeholder="Password" required>
-                        </div>
-                        <div class="col-12 p-0 input-group">
-                            <input type="password" class="form-control" placeholder="Confirm Password" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 p-0 input-group align-self-center">
-                            <button class="btn primary-button">REGISTER</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-</div>
-
-<!-- Modal [map] -->
-<div id="map" class="p-0 modal fade" role="dialog" aria-labelledby="map" aria-hidden="true">
-<div class="modal-dialog modal-dialog-slideout" role="document">
-    <div class="modal-content full">
-        <div class="modal-header absolute" data-dismiss="modal">
-            <i class="icon-close fas fa-arrow-right"></i>
-        </div>
-        <div class="modal-body p-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr" width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </div>
-</div>
-</div>
-
-<!-- Modal [responsive menu] -->
-<div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
-<div class="modal-dialog modal-dialog-slideout" role="document">
-    <div class="modal-content full">
-        <div class="modal-header" data-dismiss="modal">
-            <i class="icon-close fas fa-arrow-right"></i>
-        </div>
-        <div class="menu modal-body">
-            <div class="row w-100">
-                <div class="items p-0 col-12 text-center">
-                    <!-- Append [navbar] -->
-                </div>
-                <div class="contacts p-0 col-12 text-center">
-                    <!-- Append [navbar] -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
 
 <!-- Scroll [to top] -->
 <div id="scroll-to-top" class="scroll-to-top">
-<a href="#header" class="smooth-anchor">
-    <i class="fas fa-arrow-up"></i>
-</a>
-</div>        
+    <a href="#header" class="smooth-anchor">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
 
 <!-- ==============================================
 Google reCAPTCHA // Put your site key here
