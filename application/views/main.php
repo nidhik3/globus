@@ -157,43 +157,10 @@
                  <div class="col-12">
                      <span class="pre-title">We do more for everyone</span>
                      <h2 class="mb-0"> <span class="featured"><span>Why</span></span> Choose Us?</h2>
+                     <p>With an array of effectively efficient services, we aid you in gaining a business foothold and a distinguished mark in the industry. Our unremitting efforts combined with the zeal to offer quality deliverables bring consistent results that boost growth throughout.</p>
                  </div>
              </div>
-             <div class="row justify-content-center text-center">
-                 <div class="col-12">
-                     <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                         <label class="btn active">
-                             <input type="radio" value="all" checked class="btn-filter-item">
-                             <span>All</span>
-                         </label>
-                         <label class="btn">
-                             <input type="radio" value="institutional" class="btn-filter-item">
-                             <span>Institutional</span>
-                         </label>
-                         <label class="btn">
-                             <input type="radio" value="social" class="btn-filter-item">
-                             <span>Social</span>
-                         </label>
-                         <label class="btn">
-                             <input type="radio" value="events" class="btn-filter-item">
-                             <span>Events</span>
-                         </label>
-                         <label class="btn">
-                             <input type="radio" value="innovation" class="btn-filter-item">
-                             <span>Innovation</span>
-                         </label>
-                         <label class="btn">
-                             <input type="radio" value="environment" class="btn-filter-item">
-                             <span>Environment</span>
-                         </label>
-                         <label class="btn">
-                             <input type="radio" value="technology" class="btn-filter-item">
-                             <span>Technology</span>
-                         </label>
-                     </div>
-                 </div>
-             </div>
-        
+         
              <div class="row my-3  d-flex justify-content-center">
                  <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
                      <div class="row card p-0 text-center">
@@ -203,8 +170,8 @@
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
                                  <a href="#">
-                                     <h4>International business trip in Shanghai</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                     <h4>Data Security</h4>
+                                     <p>Strong security systems and data protection policies.</p>
                                  </a>
                              </div>
                          </div>
@@ -219,8 +186,8 @@
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
                                  <a href="#">
-                                     <h4>Technology workshop with education theme</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                     <h4 class="m-0">Qualified Team</h4>
+                                     <p>Certified team of more than a decade experience in Tax & Accounting outsourcing.</p>
                                  </a>
                              </div>
                          </div>
@@ -240,8 +207,8 @@
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
                                  <a href="#">
-                                     <h4>International business trip in Shanghai</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                     <h4 class="m-0">Quality Control and Review Processes</h4>
+                                     <p>Our rigorous quality control and review processes ensure that your work is accurate & compliant.</p>
                                  </a>
                              </div>
                          </div>
@@ -256,8 +223,8 @@
                          <div class="card-caption col-12 p-0">
                              <div class="card-body">
                                  <a href="#">
-                                     <h4>Technology workshop with education theme</h4>
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                     <h4>Flexible Operational Models</h4>
+                                     <p>Our operational Models follow the “Business Your Way” philosophy.</p>
                                  </a>
                              </div>
                          </div>
@@ -315,7 +282,7 @@
              <div class="col-12">
                  <span class="pre-title">How it works in practice</span>
                  <h2><span class="featured"><span>Process</span></span> Management</h2>
-                 <p class="text-max-800">We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned.</p>
+                
              </div>
          </div>
          <div class="row justify-content-center text-center items">
@@ -354,9 +321,9 @@
          <div class="container">
              <div class="row text-center intro">
                  <div class="col-12">
-                     <span class="pre-title">Customer Testimonials</span>
-                     <h2>Trusted <span class="featured"><span>Feedback</span></span></h2>
-                     <p class="text-max-800">We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p>
+                     <!-- <span class="pre-title">Customer Testimonials</span> -->
+                     <h2>Knowledge <span class="featured"><span> Treasure </span></span></h2>
+                     <!-- <p class="text-max-800">We work intensively in search of ideals that can add up in the lives of our customers. This is what moves us and we are grateful for the recognition.</p> -->
                  </div>
              </div>
              <div class="swiper-container mid-slider items" data-perview="3">
